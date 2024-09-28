@@ -1,0 +1,118 @@
+# This file was created Fri Sep 27 14:42:56 2024
+# Created by:
+#                     :-) GROMACS - gmx polystat, 2023.3 (-:
+# 
+# Executable:   /ext3/apps/gromacs/2023.3/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /ext3/apps/gromacs/2023.3/openmpi/intel
+# Working dir:  /home/fh2268/comp-lab-class-2024/Week4-CharmmGuiSetup/Setup/1v1d_gmx_opc/gromacs
+# Command line:
+#   gmx_mpi polystat -s step5_1.tpr -f concatenated.xtc -n index.ndx -o polystat.xvg -v polyvec.xvg -p persist.xvg -i intdist.xvg -b 0 -e 10000 -dt 10 -tu ps
+# gmx polystat is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "Persistence length"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "bonds"
+@TYPE xy
+     0.000     -nan
+   100.000     -nan
+   200.000     -nan
+   300.000     -nan
+   400.000     -nan
+   500.000     -nan
+   600.000     -nan
+   700.000     -nan
+   800.000     -nan
+   900.000     -nan
+  1000.000     -nan
+  1100.000     -nan
+  1200.000     -nan
+  1300.000     -nan
+  1400.000     -nan
+  1500.000     -nan
+  1600.000     -nan
+  1700.000     -nan
+  1800.000     -nan
+  1900.000     -nan
+  2000.000     -nan
+  2100.000     -nan
+  2200.000     -nan
+  2300.000     -nan
+  2400.000     -nan
+  2500.000     -nan
+  2600.000     -nan
+  2700.000     -nan
+  2800.000     -nan
+  2900.000     -nan
+  3000.000     -nan
+  3100.000     -nan
+  3200.000     -nan
+  3300.000     -nan
+  3400.000     -nan
+  3500.000     -nan
+  3600.000     -nan
+  3700.000     -nan
+  3800.000     -nan
+  3900.000     -nan
+  4000.000     -nan
+  4100.000     -nan
+  4200.000     -nan
+  4300.000     -nan
+  4400.000     -nan
+  4500.000     -nan
+  4600.000     -nan
+  4700.000     -nan
+  4800.000     -nan
+  4900.000     -nan
+  5000.000     -nan
+  5100.000     -nan
+  5200.000     -nan
+  5300.000     -nan
+  5400.000     -nan
+  5500.000     -nan
+  5600.000     -nan
+  5700.000     -nan
+  5800.000     -nan
+  5900.000     -nan
+  6000.000     -nan
+  6100.000     -nan
+  6200.000     -nan
+  6300.000     -nan
+  6400.000     -nan
+  6500.000     -nan
+  6600.000     -nan
+  6700.000     -nan
+  6800.000     -nan
+  6900.000     -nan
+  7000.000     -nan
+  7100.000     -nan
+  7200.000     -nan
+  7300.000     -nan
+  7400.000     -nan
+  7500.000     -nan
+  7600.000     -nan
+  7700.000     -nan
+  7800.000     -nan
+  7900.000     -nan
+  8000.000     -nan
+  8100.000     -nan
+  8200.000     -nan
+  8300.000     -nan
+  8400.000     -nan
+  8500.000     -nan
+  8600.000     -nan
+  8700.000     -nan
+  8800.000     -nan
+  8900.000     -nan
+  9000.000     -nan
+  9100.000     -nan
+  9200.000     -nan
+  9300.000     -nan
+  9400.000     -nan
+  9500.000     -nan
+  9600.000     -nan
+  9700.000     -nan
+  9800.000     -nan
+  9900.000     -nan
+ 10000.000     -nan

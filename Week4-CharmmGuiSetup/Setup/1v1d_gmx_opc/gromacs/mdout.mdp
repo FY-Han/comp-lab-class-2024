@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (3976303)
 ;	On host: cs285.hpc.nyu.edu
-;	At date: Thu Sep 26 15:37:12 2024
+;	At date: Thu Sep 26 16:56:36 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /ext3/apps/gromacs/2023.3/openmpi/intel
 ;	Working dir:  /home/fh2268/comp-lab-class-2024/Week4-CharmmGuiSetup/Setup/1v1d_gmx_opc/gromacs
 ;	Command line:
-;	  gmx_mpi grompp -f step5_production.mdp -o step5_1.tpr -c step4.1_equilibration.gro -p topol.top -n index.ndx
+;	  gmx_mpi grompp -f step5_production.mdp -o step5_5.tpr -c step5_4.gro -t step5_4.cpt -p topol.top -n index.ndx
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -41975874
+gen-seed                 = 1811675102
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
