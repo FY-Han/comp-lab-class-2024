@@ -1,0 +1,38 @@
+integrator              = md
+dt                      = 0.002
+nsteps                  = 500000
+nstxout-compressed      = 50000
+
+; OUTPUT CONTROL OPTIONS
+nstxout = 5000         ; Save coordinates every 10 ps
+nstvout = 5000         ; Save velocities every 10 ps
+nstfout = 5000         ; Save forces every 10 ps
+nstenergy = 5000       ; Save energies every 10 ps
+nstlog = 5000          ; Update log file every 10 ps
+
+
+nstcalcenergy           = 100
+;
+cutoff-scheme           = Verlet
+nstlist                 = 20
+vdwtype                 = Cut-off
+vdw-modifier            = Force-switch
+rvdw_switch             = 1.0
+rvdw                    = 1.2
+rlist                   = 1.2
+rcoulomb                = 1.2
+coulombtype             = PME
+;
+tcoupl                  = v-rescale
+tc_grps                 = SOLV
+tau_t                   = 1.0
+ref_t                   = 300
+;
+constraints             = h-bonds
+constraint_algorithm    = LINCS
+continuation            = yes
+;
+nstcomm                 = 100
+comm_mode               = linear
+comm_grps               = SOLV
+;
