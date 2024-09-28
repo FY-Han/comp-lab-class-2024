@@ -1,0 +1,4 @@
+# Ignore all .xtc and .trr files
+*.xtc
+*.trr
+
