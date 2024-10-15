@@ -1,0 +1,22 @@
+# vim:ft=plumed
+MOLINFO STRUCTURE=dialaA.pdb 
+# Compute the backbone dihedral angle phi, defined by atoms C-N-CA-C
+# you might want to use MOLINFO shortcuts
+phi: TORSION ATOMS=5,7,9,15
+# Compute the backbone dihedral angle psi, defined by atoms N-CA-C-N
+psi: TORSION ATOMS=7,9,15,17 
+
+# Activate well-tempered metadynamics in phi
+metad: METAD ARG=phi,psi
+   # Deposit a Gaussian every 500 time steps, with initial height of 1.2 kJ/mol
+   PACE=500 HEIGHT=1.2
+   # Set bias factor to 10 as required by the exercise
+   BIASFACTOR=10
+   # Set Gaussian width (sigma) for phi and psi based on unbiased run standard deviation
+   SIGMA=0.55,1.02   # Replace these values with actual sigma from unbiased runs
+   # Specify file to write hills and grid for bias potential
+   FILE=HILLS GRID_MIN=-pi GRID_MAX=pi GRID_WFILE=FILENAME.grid.dat GRID_WSTRIDE=10000
+...
+
+# Print both collective variables and the value of the bias potential to the COLVAR file
+PRINT ARG=phi,psi FILE=COLVAR STRIDE=10
