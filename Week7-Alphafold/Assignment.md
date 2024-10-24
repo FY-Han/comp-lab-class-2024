@@ -33,7 +33,6 @@ Lab steps:
 - This page has the structure and sequence of SARS-Cov-2 Helicase NSP 13, however it is an unbound form
 =======
 - [This page](https://www.rcsb.org/structure/6ZSL) has the structure and sequence of SARS-Cov-2 Helicase NSP 13, however it is an unbound form
->>>>>>> upstream/main
 - Use the alphafold server to predict the structure of bound to the RNA sequence UUUUUUUU, and include 1 ATP molecule
 - Use VMD to superimpose one of the bound predictions from AF3 with the crystal structure. Color the RNA, AF3 prediction, and PDB structure differently. Put an image of this in your Images folder
 - Use VMD to load all 5 cif predictions and show all of them on top of each other, aligned. Color by BETA aka the plDDT score. Save an image in the Images folder
