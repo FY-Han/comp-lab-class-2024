@@ -29,7 +29,7 @@ Created orthogonal box = (0 0 0) to (13.679808 13.679808 13.679808)
 create_atoms    1 box
 Created 2048 atoms
   using lattice units in orthogonal box = (0 0 0) to (13.679808 13.679808 13.679808)
-  create_atoms CPU = 0.001 seconds
+  create_atoms CPU = 0.000 seconds
 mass 1 1.0
 
 velocity all create ${initial_temperature} 12345
@@ -167,20 +167,20 @@ Per MPI rank memory allocation (min/avg/max) = 3.184 | 3.184 | 3.184 Mbytes
      49000   3.043254       0.95169997     0              5.514352       12.065677    
      49500   2.9765612      0.95118821     0              5.4138499      11.973125    
      50000   2.9747463      0.95789978     0              5.4178404      12.20428     
-Loop time of 23.7992 on 1 procs for 50000 steps with 2048 atoms
+Loop time of 23.9267 on 1 procs for 50000 steps with 2048 atoms
 
-Performance: 1815185.003 tau/day, 2100.909 timesteps/s, 4.303 Matom-step/s
+Performance: 1805514.430 tau/day, 2089.716 timesteps/s, 4.280 Matom-step/s
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 3.5864     | 3.5864     | 3.5864     |   0.0 | 15.07
-Neigh   | 17.274     | 17.274     | 17.274     |   0.0 | 72.58
-Comm    | 1.1625     | 1.1625     | 1.1625     |   0.0 |  4.88
-Output  | 0.0044249  | 0.0044249  | 0.0044249  |   0.0 |  0.02
-Modify  | 1.2675     | 1.2675     | 1.2675     |   0.0 |  5.33
-Other   |            | 0.5042     |            |       |  2.12
+Pair    | 3.682      | 3.682      | 3.682      |   0.0 | 15.39
+Neigh   | 17.304     | 17.304     | 17.304     |   0.0 | 72.32
+Comm    | 1.1611     | 1.1611     | 1.1611     |   0.0 |  4.85
+Output  | 0.0044561  | 0.0044561  | 0.0044561  |   0.0 |  0.02
+Modify  | 1.268      | 1.268      | 1.268      |   0.0 |  5.30
+Other   |            | 0.5071     |            |       |  2.12
 
 Nlocal:           2048 ave        2048 max        2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -416,20 +416,20 @@ Per MPI rank memory allocation (min/avg/max) = 3.326 | 3.326 | 3.326 Mbytes
     149000   0.13124053     0.01631807     0              0.21308274     0.69215465   
     149500   0.11622961     0.015421807    0              0.18968109     0.66405325   
     150000   0.10151147     0.012374077    0              0.16456694     0.56786594   
-Loop time of 35.4929 on 1 procs for 100000 steps with 2048 atoms
+Loop time of 35.832 on 1 procs for 100000 steps with 2048 atoms
 
-Performance: 2434287.143 tau/day, 2817.462 timesteps/s, 5.770 Matom-step/s
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+Performance: 2411253.500 tau/day, 2790.803 timesteps/s, 5.716 Matom-step/s
+99.3% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 6.3782     | 6.3782     | 6.3782     |   0.0 | 17.97
-Neigh   | 23.908     | 23.908     | 23.908     |   0.0 | 67.36
-Comm    | 1.7773     | 1.7773     | 1.7773     |   0.0 |  5.01
-Output  | 0.034393   | 0.034393   | 0.034393   |   0.0 |  0.10
-Modify  | 2.5332     | 2.5332     | 2.5332     |   0.0 |  7.14
-Other   |            | 0.8615     |            |       |  2.43
+Pair    | 6.5366     | 6.5366     | 6.5366     |   0.0 | 18.24
+Neigh   | 23.938     | 23.938     | 23.938     |   0.0 | 66.81
+Comm    | 1.7744     | 1.7744     | 1.7744     |   0.0 |  4.95
+Output  | 0.17587    | 0.17587    | 0.17587    |   0.0 |  0.49
+Modify  | 2.544      | 2.544      | 2.544      |   0.0 |  7.10
+Other   |            | 0.8631     |            |       |  2.41
 
 Nlocal:           2048 ave        2048 max        2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
