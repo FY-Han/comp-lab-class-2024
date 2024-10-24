@@ -1,6 +1,7 @@
 # Ignore all .xtc and .trr files
 *.xtc
 *.trr
+<<<<<<< HEAD
 *.json
 *.cif
 *.pickle
