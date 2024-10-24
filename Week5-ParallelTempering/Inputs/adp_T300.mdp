@@ -3,7 +3,11 @@
 define              =  
 ; integrator
 integrator          =  md 
+<<<<<<< HEAD
 nsteps              =  7500000
+=======
+nsteps              =  __NSTEPS__ 
+>>>>>>> upstream/main
 dt                  =  0.002
 ;
 ; removing CM translation and rotation
