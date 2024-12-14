@@ -1,0 +1,4 @@
+set sel [atomselect top "resname CHA"]
+set center [measure center $sel]
+$sel moveby [vecinvert $center]
+$sel delete
